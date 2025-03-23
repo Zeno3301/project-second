@@ -16,7 +16,7 @@ public class Bullet : MonoBehaviour
     {
         // Движение пули вверх (для игрока) или вниз (для врагов)
         float direction = isEnemyBullet ? -1f : 1f;
-        transform.Translate(Vector3.up * speed * direction * Time.deltaTime);
+        transform.Translate(Vector3.up * speed * direction * Time.deltaTime);   
     }
 
     private void OnTriggerEnter2D(Collider2D other)
