@@ -1,4 +1,4 @@
-# project-second
+# project-2
 First unity project for practice.
 
 Its should be C# 2d game project, with a gameplay swap from scroll shooter to run`n gun or platformer.
